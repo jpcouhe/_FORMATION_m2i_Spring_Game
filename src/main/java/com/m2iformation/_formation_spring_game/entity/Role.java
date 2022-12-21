@@ -2,6 +2,8 @@ package com.m2iformation._formation_spring_game.entity;
 
 import jakarta.persistence.*;
 
+import java.util.List;
+
 @Entity
 public class Role {
 
@@ -11,10 +13,6 @@ public class Role {
 
     @Enumerated(EnumType.STRING)
     private RoleEnum name;
-
-    public Role(){
-
-    }
 
     public Long getId() {
         return id;
@@ -31,4 +29,5 @@ public class Role {
     public void setName(RoleEnum name) {
         this.name = name;
     }
+
 }
