@@ -1,0 +1,147 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #C6C5FF;
+}
+img{
+    height: 100px;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+    color: white;
+    font-size: 25px;
+    padding: 10px;
+}
+
+a{
+    color: white;
+    margin-right: 20px;
+    text-decoration: none
+;
+}
+
+
+.game-card{
+    display: flex;
+    align-items: center;
+    height: 100px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #C6C5FF;
+    margin: 60px 0;
+    max-width: 800px;
+}
+
+
+.game-name{
+    display: flex;
+}
+
+.game-name > p {
+    margin-right: 10px;
+    width: 150px;
+    word-break: break-all;
+}
+.container{
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.btn-delete{
+    background-color: #C6C5FF;
+}
+
+.btn-details{
+    background-color: pink;
+}
+
+.btn-edit{
+    background-color: orange;
+}
+
+.btn{
+    padding: 10px 10px;
+    border-radius: 5px;
+    border:none;
+    color: white;
+    margin-right: 20px;
+    text-align: center;
+    width: 90px;
+}
+
+
+.btn > a {
+    margin: 0;
+}
+
+form{
+    margin-left: auto;
+
+}
+
+
+.form-action{
+    display: flex;
+    flex-direction: column;
+}
+.form-container{
+    margin: 100px auto;
+    max-width: 700px;
+
+}
+
+label{
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+
+input, textarea{
+    margin:20px 0 ;
+    padding: 20px;
+    font-family: inherit;
+    font-size: 16px;
+    outline: none;
+    border-radius: 10px;
+    border: 1px solid #C6C5FF;
+    background-color: rgba(198, 197, 255, 0.19);
+    resize: none;
+}
+
+
+form > button  {
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor:pointer;
+    background-color: #C6C5FF;
+    color: white;
+    border: none;
+}
+.none{
+    display: none;
+}
+
+
+.container-card{
+    margin: 100px auto;
+    max-width: 700px;
+    border: 1px solid #C6C5FF;
+    padding: 50px;
+}
+
+.container-card > h1{
+    margin-bottom: 20px;
+    color: orange;
+}
